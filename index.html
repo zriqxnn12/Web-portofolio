@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiar navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Qinshibe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#pertama">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kedua">Achievement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#empat">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="pertama">
+        <div class="container">
+            <div class="profile">
+                <img class="rounded-circle profileImage" src="assets/image/profile2.jpg" alt="gambar-profile">
+                <h2 class="fw-bold text-white mt-3">Yoo!, i'm Mohammad Azriqin</h2>
+                <h4 class="text-white">College Student</h4>
+            </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1"
+            d="M0,128L40,128C80,128,160,128,240,106.7C320,85,400,43,480,32C560,21,640,43,720,64C800,85,880,107,960,122.7C1040,139,1120,149,1200,138.7C1280,128,1360,96,1400,80L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+    </svg>
+
+    <section id="kedua" class="biodata">
+        <h1 class="text-center">PROFILE</h1>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <div class="col-sm-12 mt-5 col-lg-4">
+                    Hello, introduce my name is Mohd Azriqin who is called Qin. I am a junior web developer using
+                    technology from HTML, CSS, PHP. For now, I am study in Polytechnic State of Batam with a major of
+                    Informatics Engineering in a year group 2022.
+                </div>
+                <div class="col-sm-12 mt-5 col-lg-4">
+                    <p class="text-decoration-underline fw-semibold">School History</p>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#schoolModal">
+                        SMA NIZAM AL-MULK
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="schoolModal" tabindex="-1" aria-labelledby="schoolModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="schoolModalLabel">SMA NIZAM AL-MULK, BATAM</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    school year/major : 2018-2021/Science Major
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of modal-->
+                    <p class="mt-3 text-decoration-underline fw-semibold">College History</p>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collageModal">
+                        POLITEKNIK NEGERI BATAM
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="collageModal" tabindex="-1" aria-labelledby="collageModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="collageModalLabel">POLITEKNIK NEGERI BATAM</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    College year/Major : 2022-now/D3 Informatics of Engineering
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of modal-->
+                </div>
+                <div class="col-sm-12 mt-5 col-lg-4">
+                    My hobbies is study code and trying to make website. I also love watching movie, playing games, and
+                    listening my favorit music during free time.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievement">
+        <div class="container" style="padding-bottom: 130px;">
+            <h1 class="text-center text-white mt-5">PROJECT HISTORY</h1>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card mx-auto mt-3" style="width: 18rem;">
+                            <img src="assets/image/ukbi.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Website UKBI</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Website Uji Kemahiran Bahasa
+                                    Indonesia</h6>
+                                <p class="card-text">Website UKBI ini bertujuan untuk membantu para user menguji bahasa
+                                    indonesia lewat digital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card mx-auto mt-3" style="width: 18rem;">
+                            <img src="assets/image/GuideMe.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Guide Me: Tour Guide</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Aplikasi pemandu wisata</h6>
+                                <p class="card-text">Guide Me, aplikasi pemandu wisata berbasis mobile. aplikasi ini
+                                    fungsinya memandu tempat destinasi untuk para wisata asing maupun domestik </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card mx-auto mt-3" style="width: 18rem;">
+                            <img src="assets/image/ZeroWaste.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ZeroWaste</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Aplikasi pelayanan pengangkut sampah
+                                </h6>
+                                <p class="card-text">Aplikasi ZeroWaste, bertujuan untuk membantu para masyarakat dalam
+                                    mengangkut sampah melalui digital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1"
+            d="M0,128L80,117.3C160,107,320,85,480,96C640,107,800,149,960,181.3C1120,213,1280,235,1360,245.3L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+    </svg>
+
+    <section class="contactMe">
+        <h1 class="text-center" style="margin-top: -2px;">CONTACT ME</h1>
+        <div class="container text-center contact">
+            <p class="mt-5 mb-5">If you need collaboration/something, just contact me</p>
+            <form action="">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="mb-3 mt-3">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Message"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-danger" style="width: 100%;">Send message!</button>
+            </form>
+        </div>
+    </section>
+
+    <!--<footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <div>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <span class="text-white">Made by Mohd Azriqin, 2024.</span>
+        </div>
+    </footer>-->
+
+    <section id="empat" class="footer py-3">
+        <div class="container text-center">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p class="text-white text-center watermark">Made by Mohd Azriqin, 2024.</p>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
